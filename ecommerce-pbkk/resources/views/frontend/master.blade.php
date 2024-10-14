@@ -236,7 +236,7 @@
                       </a>
                     </li>
                     <li class="pe-3">
-                      <a href="#">
+                      <a href="{{ route('login') }}">
                         <svg class="user">
                           <use xlink:href="#user"></use>
                         </svg>
