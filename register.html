@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>B-Store</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="css/tiny-slider.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .register {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 100%;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body style="overflow: hidden;">
+
+    <main class="register">
+        <div class="row">
+            <div class="col-md-12 mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                        Register
+                    </div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-label">
+                                <label for="">Name</label>
+                                <input type="text" class="form-control" required autofocus>
+                                <small class="form-text text-danger">Nama harus diisi</small>
+                            </div>
+                            <div class="form-label">
+                                <label for="">E-mail</label>
+                                <input type="email" class="form-control" required>
+                                <small class="form-text text-danger">E-mail harus diisi</small>
+                            </div>
+                            <div class="form-label">
+                                <label for="">Password</label>
+                                <input type="password" class="form-control" required>
+                                <small class="form-text text-danger">Password harus diisi</small>
+                            </div>
+                            <div class="form-label">
+                                <label for="">Confirm Password</label>
+                                <input type="password" class="form-control" required>
+                                <small class="form-text text-danger">Password harus sama</small>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Register</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
