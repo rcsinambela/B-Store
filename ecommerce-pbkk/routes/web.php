@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TemplateController;
 use App\Http\Middleware\AdminMiddleware;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\AdminDashboardController;
 
 // Route::get('/', function () {
 //     return view('welcome');
