@@ -1041,8 +1041,3 @@ figure.instagram-item img.insta-image {
 .post-navigation:focus svg {
   fill: var(--primary-color);
 }
-
-.login,
-.register {
-  margin: 0 auto;
-}
